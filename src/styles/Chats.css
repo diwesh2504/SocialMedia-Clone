@@ -1,0 +1,120 @@
+#chats-container{
+    display: flex;
+    flex-direction: column;
+}
+#chats-container-1{
+    flex:0.25
+}
+#chats-module{
+    flex:0.75;
+    display: flex;
+    
+}
+#chats-module-left{
+    flex:0.25;
+    
+}
+#chats-module-left-a{
+    border-radius: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 5px 0px 0px 5px;
+    
+    
+}
+#chats-module-right{
+    flex:0.75;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+     
+}
+#chats-module-right-a{
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.MuiTypography-subtitle2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px !important;
+}
+#chats-module-right-b{
+    height:70vh;
+    overflow-y: scroll;
+    background: url("../images/background_chat.jpg");
+    background-size:50%;
+    
+    
+}
+#chats-module-right-a .MuiListItem-dense{
+    padding: 3px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#chats-module-right-c{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+}
+#chat-module-right-c div:nth-of-type(2){
+    flex:3 1 0; 
+}
+
+.input_for_text{
+    width:80%;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+}
+#individual_chat{
+    display: flex;
+    justify-content: flex-end;
+
+}
+#individual_chat .msg{
+    background-color: rgb(180, 240, 193);
+    padding:10px;
+    right: 10px;
+    border-radius: 10px;
+}
+#individual_chat_rec{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#individual_chat_rec .msg{
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(182, 247, 157);
+    border-radius: 10px;
+
+}
+#individual_chat_container{
+    padding: 20px;
+}
+.first_from_user{
+    border-top-right-radius: 0px !important;
+}
+.first_from_sender{
+    border-top-left-radius: 0 !important ;
+}
+.span-time{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+   padding: 5px;
+}
+
+.span-time .MuiSvgIcon-colorPrimary	{
+ font-size: 10px;
+
+}
+.MuiTextField-root{
+    width: 100%;
+}

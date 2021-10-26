@@ -1,0 +1,14 @@
+#complete input{
+    border: 1px solid slateblue;
+    height: 20px;
+    width: 90%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#complete_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+}
